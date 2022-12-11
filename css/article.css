@@ -1,0 +1,63 @@
+::-webkit-scrollbar {
+    width: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url("../img/inquinamento.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    color: hsl(38, 100%, 50%);
+    font-family: "Oswald";
+
+    width: 60%;
+    margin: 4em auto;
+}
+
+header {
+    display: grid;
+
+    grid-template-columns: min-content auto;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url("../img/inquinamento.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header-back-controlls a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.material-symbols-outlined{
+    font-size: 4.3rem;
+    font-weight: 900;
+}
+
+.header-title-main {
+    font-family: "Rubik Distressed";
+    font-size: 4rem;
+    font-weight: 100;
+}
+
+main {
+    margin: 1em 0;
+}
+
+main p {
+    font-size: 1.2rem;
+}
+
+footer {
+    margin: 3em 0;
+}
