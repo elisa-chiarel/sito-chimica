@@ -39,7 +39,7 @@ header {
     color: inherit;
 }
 
-.material-symbols-outlined{
+.material-symbols-outlined {
     font-size: 4.3rem;
     font-weight: 900;
 }
@@ -55,9 +55,23 @@ main {
 }
 
 main p {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 footer {
     margin: 3em 0;
+}
+
+.container {
+    font-size: 1.2rem;
+    justify-self: left;
+    align-self: center;
+    line-height: 2;
+}
+
+.bibliography {
+    font-size: 1.5rem;
+    justify-self: left;
+    align-self: center;
+    line-height: 2;
 }

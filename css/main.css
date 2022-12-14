@@ -55,10 +55,15 @@ header {
 
 main {
     margin: 3em;
+    .yourclass:after{
+        clear: both;
+        content: '';
+        display: block;
+    }
 }
 
 footer {
-    display: flex;
+    display: block;
     padding: 3em;
 
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
@@ -128,8 +133,8 @@ main sub {
     transition-property: all;
     transition-duration: 1s;
     transition-timing-function: ease;
-    padding: 0 .3em;
-    margin: 0 .3em;
+    padding: 0 0.3em;
+    margin: 0 0.3em;
     border-radius: 1em;
 }
 
